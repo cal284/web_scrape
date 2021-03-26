@@ -40,7 +40,7 @@ def job():
     #Check if you're getting a correct value
     print(last_price)
     #Set the desired message you want to see once the stock price is at a certain level
-    sender_email = "lidget987@gmail.com" #The sender email
+    sender_email = "cari.lange@ttpost.net" #The sender email
     rec_email = "caliverp123@hotmail.com" #The receiver email
     password = ("Qwjhbnwzzxqowahk")#The password to the sender email
     message = "MSFT STOCK ALERT!!! The stock is at above price you set " + "%.6f" % last_price #The message you want to send
