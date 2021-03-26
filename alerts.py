@@ -48,9 +48,9 @@ def job():
     if last_price > target_sell_price:
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.starttls()
-        server.login('lidget987@gmail.com', 'Qwjhbnwzzxqowahk') #logs into your email account
+        server.login('cari.lange@ttpost.net', 'Qwjhbnwzzxqowahk') #logs into your email account
         print("Login Success")#confirms that you have logged in succesfully
-        server.sendmail('lidget987@gmail.com', 'caliverp123@hotmail.com', 'Lock you')#send the email with your custom mesage
+        server.sendmail('cari.lange@ttpost.net', 'caliverp123@hotmail.com', 'Lock you')#send the email with your custom mesage
         print("Email was sent") #confirms that the email was sent
     else:
         server = smtplib.SMTP('smtp.gmail.com', 587)
