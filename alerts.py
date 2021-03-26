@@ -55,7 +55,7 @@ def job():
     else:
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.starttls()
-        server.login('lidget987@gmail.com', 'Qwjhbnwzzxqowahk') #logs into your email account
+        server.login('cari.lange@ttpost.net', 'Qwjhbnwzzxqowahk') #logs into your email account
         print("Login Success2")#confirms that you have logged in succesfully
         server.sendmail('lidget987@gmail.com', 'caliverp123@hotmail.com', 'stock price is below target')#send the email with your custom mesage
         print("Email was sent2") #confirms that the email was sent
