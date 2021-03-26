@@ -40,7 +40,7 @@ def job():
     #Check if you're getting a correct value
     print(last_price)
     #Set the desired message you want to see once the stock price is at a certain level
-    sender_email = "cari.lange@ttpost.net" #The sender email
+    sender_email = "lidget987@gmail.com" #The sender email
     rec_email = "caliverp123@hotmail.com" #The receiver email
     password = ("Qwjhbnwzzxqowahk")#The password to the sender email
     message = "MSFT STOCK ALERT!!! The stock is at above price you set " + "%.6f" % last_price #The message you want to send
@@ -48,16 +48,16 @@ def job():
     if last_price > target_sell_price:
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.starttls()
-        server.login('cari.lange@ttpost.net', 'Qwjhbnwzzxqowahk') #logs into your email account
+        server.login('lidget987@gmail.com', 'Qwjhbnwzzxqowahk') #logs into your email account
         print("Login Success")#confirms that you have logged in succesfully
-        server.sendmail('cari.lange@ttpost.net', 'caliverp123@hotmail.com', 'Lock you')#send the email with your custom mesage
+        server.sendmail('lidget987@gmail.com', 'caliverp123@hotmail.com', 'Lock you')#send the email with your custom mesage
         print("Email was sent") #confirms that the email was sent
     else:
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.starttls()
-        server.login('cari.lange@ttpost.net', 'Qwjhbnwzzxqowahk') #logs into your email account
+        server.login('lidget987@gmail.com', 'Qwjhbnwzzxqowahk') #logs into your email account
         print("Login Success2")#confirms that you have logged in succesfully
-        server.sendmail('cari.lange@ttpost.net', 'caliverp123@hotmail.com', 'stock price is below target')#send the email with your custom mesage
+        server.sendmail('lidget987@gmail.com', 'caliverp123@hotmail.com', 'stock price is below target')#send the email with your custom mesage
         print("Email was sent2") #confirms that the email was sent
 
 
